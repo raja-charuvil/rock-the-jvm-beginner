@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63715b26-db12-444a-83ea-16541e96c890" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exercises/MyList.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/AbstractDataTypes.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/Inheritance.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part3funProgram/WhatsAFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/AnonymousClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/CaseClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/Exceptions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part2oop/Generics.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/Cons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/Cons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/Empty$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/Empty$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/Empty.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/Empty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/ListTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/ListTest$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/ListTest$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/ListTest$delayedInit$body.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/ListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/MyList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/MyList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/MyList.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +51,9 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.ListTest">
-    <configuration name="AbstractDataTypes" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.AbstractDataTypes" />
+  <component name="RunManager" selected="Application.Exceptions">
+    <configuration name="AnonymousClass" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.AnonymousClass" />
       <module name="rock-jvm-raja" />
       <extension name="coverage">
         <pattern>
@@ -57,8 +65,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InheritanceAndTraits" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.Inheritance" />
+    <configuration name="CaseClass" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.CaseClass" />
+      <module name="rock-jvm-raja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.part2oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exceptions" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.Exceptions" />
+      <module name="rock-jvm-raja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.part2oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Generics" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.Generics" />
       <module name="rock-jvm-raja" />
       <extension name="coverage">
         <pattern>
@@ -83,39 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Objects" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.Objects" />
-      <module name="rock-jvm-raja" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectures.part2oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WhatsAFunction" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part3funProgram.WhatsAFunction" />
-      <module name="rock-jvm-raja" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectures.part3funProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exceptions" />
         <item itemvalue="Application.ListTest" />
-        <item itemvalue="Application.WhatsAFunction" />
-        <item itemvalue="Application.AbstractDataTypes" />
-        <item itemvalue="Application.InheritanceAndTraits" />
-        <item itemvalue="Application.Objects" />
+        <item itemvalue="Application.CaseClass" />
+        <item itemvalue="Application.AnonymousClass" />
+        <item itemvalue="Application.Generics" />
       </list>
     </recent_temporary>
   </component>
@@ -140,29 +148,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1585720536089">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1585813116293">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1585720536089" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1585720536089">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1585813116293" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1585813116292">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1585720536089" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1585720536089">
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1585813116292" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1585813116291">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1585720536089" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1585720536089">
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1585813116291" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1585813116292">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1585720536089" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1585813116292" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1585633404845">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1585633404845" />
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1585708642102">
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1585802572075">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1585708642102" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1585802572075" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1585730645062">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1585730645062" />
   </component>
 </project>
