@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63715b26-db12-444a-83ea-16541e96c890" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exercises/Maybe.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part3funProgram/AnonymousFunction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part3funProgram/HOFsCurries.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lectures/part3funProgram/Sequence.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part3funProgram/Options.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectures/part3funProgram/TuplesAndMaps.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/Cons$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/Cons$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/Cons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/Cons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/Empty$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/Empty$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/Empty.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/Empty.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/ListTest$$anon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/ListTest$$anon$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/ListTest$$anon$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/ListTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/ListTest$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/ListTest$delayedInit$body.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/ListTest$delayedInit$body.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/ListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/MyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/MyList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/MyPredicate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/exercises/MyTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/lectures/part3funProgram/WhatsAFunction$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-jvm-raja/lectures/part3funProgram/WhatsAFunction$$anon$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/lectures/part3funProgram/WhatsAFunction$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-jvm-raja/lectures/part3funProgram/WhatsAFunction$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/lectures/part3funProgram/WhatsAFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-jvm-raja/lectures/part3funProgram/WhatsAFunction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercises/MyList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/MyList.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lectures/part3funProgram/WhatsAFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/lectures/part3funProgram/WhatsAFunction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rock-jvm-raja/lectures/part3funProgram/Sequence$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rock-jvm-raja/lectures/part3funProgram/Sequence$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,39 +43,13 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Sequence">
-    <configuration name="HOFsCurries" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part3funProgram.HOFsCurries" />
-      <module name="rock-jvm-raja" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectures.part3funProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Options">
     <configuration name="ListTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="exercises.ListTest" />
       <module name="rock-jvm-raja" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapFlatMApFilterFor" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part3funProgram.MapFlatMApFilterFor" />
-      <module name="rock-jvm-raja" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lectures.part3funProgram.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,6 +70,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Options" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part3funProgram.Options" />
+      <module name="rock-jvm-raja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.part3funProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Sequence" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part3funProgram.Sequence" />
       <module name="rock-jvm-raja" />
@@ -128,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TuplesAndMaps" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part3funProgram.TuplesAndMaps" />
+      <module name="rock-jvm-raja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectures.part3funProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Options" />
+        <item itemvalue="Application.TuplesAndMaps" />
         <item itemvalue="Application.Sequence" />
         <item itemvalue="Application.MaybeTest" />
         <item itemvalue="Application.ListTest" />
-        <item itemvalue="Application.MapFlatMApFilterFor" />
-        <item itemvalue="Application.HOFsCurries" />
       </list>
     </recent_temporary>
   </component>
@@ -163,30 +144,46 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="488" y="82" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1586009107887" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1586060134583">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1586095536136">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586060134583" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1586060134583">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586095536136" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1586095536136">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586060134583" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1586060134582">
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1586095536136" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1586095536136">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586060134582" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1586060134583">
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1586095536136" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1586095536136">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586060134583" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1586095536136" />
+    <state width="1323" height="238" key="GridCell.Tab.1.bottom" timestamp="1586094341383">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1586094341383" />
+    <state width="1323" height="238" key="GridCell.Tab.1.center" timestamp="1586094341383">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1586094341383" />
+    <state width="1323" height="238" key="GridCell.Tab.1.left" timestamp="1586094341383">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1586094341383" />
+    <state width="1323" height="238" key="GridCell.Tab.1.right" timestamp="1586094341383">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1586094341383" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1585633404845">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1585633404845" />
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1586058273014">
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1586102183271">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1586058273014" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1586102183271" />
     <state x="339" y="172" key="run.anything.popup" timestamp="1586058873034">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
